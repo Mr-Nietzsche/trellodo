@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 
+  devise_for :users
   root 'pages#home'
 
 #  match '/about', to: 'pages#about', via: 'get'
